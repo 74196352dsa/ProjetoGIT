@@ -12,7 +12,6 @@ COLUMN c_nome_instancia NOPRINT NEW_VALUE c_Nom_Instance
 SELECT  instance_name c_nome_instancia
 FROM    v$instance;
 
--- The first dot in the spool command below is 
 -- the SQL*Plus concatenation character
 
 DEFINE spool_file = hr_main.log
